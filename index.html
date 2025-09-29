@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Praktikum</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="backdrop" id="backdrop"></div>
+    <div class="header">
+        <h2>LAPORAN PRAKTIKUM</h2>
+        <h3>Pemrograman Terstruktur</h3>
+        <p><em>Praktikum 1:OBJECT ORIENTED PROGRAMMING dan MENGENAL IDE NETBEANS</em></p>
+        <img src="wow/profil.png" alt="Logo Kampus">
+        <p>Nama : <em>Eka Kurniawan Zein</em></p>
+        <p>NIM : <em>24026004</em></p>
+        <p><strong>PROGRAM STUDI D3 TEKNOLOGI INFORMASI<br>POLITEKNIK SEMEN INDONESIA GRESIK</strong></p>
+        <p><em>25/09/2025</em></p>
+    </div>
+    <div class="container">
+        <div class="task-box">
+            <h2 class="task-title">Coding 1 Membuat Program Harga Produk</h2>
+            <button class="view-btn">Lihat</button>
+            <div class="task-content">
+                <h3>Coding Program-j frame form</h3>
+                <div class="code-box">
+                    <pre><code>#include  &lt;iostream&gt; 
+<pre><code>
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
+ */
+package javaapplication3;
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author ASUS
+ */
+public class pesan extends javax.swing.JFrame {
+    
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(pesan.class.getName());
+
+    /**
+     * Creates new form pesan
+     */
+    public pesan() {
+        initComponents();
+    }
+
+    @SuppressWarnings("unchecked")
+    // &lt;editor-fold defaultstate="collapsed" desc="Generated Code"&gt;                          
+    private void initComponents() {
+
+        pesan = new javax.swing.JButton();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        pesan.setText("pesan");
+        pesan.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pesanActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(132, 132, 132)
+                .addComponent(pesan)
+                .addContainerGap(196, Short.MAX_VALUE))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(90, 90, 90)
+                .addComponent(pesan)
+                .addContainerGap(187, Short.MAX_VALUE))
+        );
+
+        pack();
+    }// &lt;/editor-fold&gt;                        
+
+    private void pesanActionPerformed(java.awt.event.ActionEvent evt) {                                      
+          JOptionPane.showMessageDialog(
+            this, 
+            "Saya Belajar Netbeans",        
+            "Pesan",               
+            JOptionPane.INFORMATION_MESSAGE 
+        ); 
+    }                                     
+
+    public static void main(String args[]) {
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ReflectiveOperationException | javax.swing.UnsupportedLookAndFeelException ex) {
+            logger.log(java.util.logging.Level.SEVERE, null, ex);
+        }
+
+        java.awt.EventQueue.invokeLater(() -> new pesan().setVisible(true));
+    }
+
+    private javax.swing.JButton pesan;
+} 
+</code></pre>
+</code></pre>
+                    <button class="copy-btn"></button>
+                </div>
+            </div>
+        </div>
+        <div class="task-box">
+            <h2 class="task-title">Output Program</h2>
+            <button class="view-btn">Lihat</button>
+            <div class="task-content">
+                <img src="wow/1.png" alt="Tampilan Output 1">
+                <img src="wow/2.png" alt="Tampilan Output 2">
+                <a href="wow/2.png" download="Output_Coding1.png" class="download-btn">Unduh Gambar</a>
+            </div>
+        </div>
+       
+        <div class="task-box">
+            <h2 class="task-title">Penjelasan Program</h2>
+            <button class="view-btn">Lihat</button>
+            <div class="task-content">
+                <img src="wow/3.png" alt="Tampilan Output">
+                <img src="wow/4.png" alt="Tampilan Output">
+                <img src="wow/5.png" alt="Tampilan Output">
+                <a href="wow/3.png" download="Penjelasan_Coding1.png" class="download-btn">Unduh Gambar</a>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="quiz-container">
+        <h2 class="quiz-title">Eksplorasi Soal-Soal</h2>
+        <a href="https://ekz121.github.io/comming-soon/" class="quiz-link">Ke Halaman Soal</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
